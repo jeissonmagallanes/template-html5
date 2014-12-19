@@ -1,0 +1,39 @@
+/**
+ * Style by Jeisson Magallanes v1.0
+**/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+a, a:hover{ text-decoration: none }
+
+ul{
+	margin: 0;
+	padding: 0
+}
+
+li{ list-style-image: none }
+
+.clear{ clear: both; }
+
+.container{
+	width: 100%;
+	max-width: 1024px;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+.fleft{ float: left; }
+
+.fright{ float: right; }
+
+a, .transition-3s{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
